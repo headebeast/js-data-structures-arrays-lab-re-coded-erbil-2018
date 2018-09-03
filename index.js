@@ -30,7 +30,7 @@ function appendDriver(name) {
   drivers.push(name)
 }
 
-let newDrivers = appendDriver(Heade);
+let newDrivers = drivers.appendDriver(Heade);
 
 function prependDriver(name) {
   return newDrivers = drivers.unshift(name)
