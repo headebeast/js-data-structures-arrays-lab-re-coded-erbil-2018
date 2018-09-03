@@ -2,4 +2,6 @@
 
 const drivers = ["Milo", "Otis", "Garfield"]
 
-drivers.push(Ralph);
+function push() {
+  return drivers.push(Ralph);
+}
