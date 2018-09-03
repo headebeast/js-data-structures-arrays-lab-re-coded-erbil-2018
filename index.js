@@ -33,7 +33,7 @@ function appendDriver(name) {
 appendDriver(Heade);
 
 function prependDriver(name) {
-  let newDrivers = drivers.unshift(name)
+  return newDrivers = drivers.unshift(name)
 }
 
 prependDriver(Beast);
