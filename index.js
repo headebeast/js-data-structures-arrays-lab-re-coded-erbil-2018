@@ -28,10 +28,10 @@ function destructivelyRemoveFirstDriver() {
 destructivelyRemoveFirstDriver();
 
 function appendDriver(name) {
-  let newDrivers = drivers.push(name)
+  drivers.push(name)
 }
 
-appendDriver(Heade);
+let newDrivers = appendDriver(Heade);
 
 function prependDriver(name) {
   return newDrivers = drivers.unshift(name)
