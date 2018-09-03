@@ -24,6 +24,10 @@ function destructivelyRemoveFirstDriver() {
   return drivers.shift()
 }
 
+destructivelyRemoveFirstDriver();
+
+
+
 
 
 
