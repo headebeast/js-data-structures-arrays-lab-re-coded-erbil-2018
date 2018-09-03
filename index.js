@@ -14,8 +14,17 @@ function destructivelyPrependDriver(name) {
 
 destructivelyPrependDriver(Hedi);
 
-function destructivelyRemoveLastDriver(name) {
-  return drivers.pop(name)
+function destructivelyRemoveLastDriver() {
+  return drivers.pop()
 }
 
 destructivelyRemoveLastDriver();
+
+function destructivelyRemoveFirstDriver() {
+  return drivers.shift()
+}
+
+
+
+
+
