@@ -26,18 +26,30 @@ function destructivelyRemoveFirstDriver() {
 
 destructivelyRemoveFirstDriver();
 
-function appendDriver(name) {
-  drivers.push(name)
+function appendDriver(name)
+{
+  const newName=[...drivers];
+  newName.push(name);
+  return newName;
 }
-
-let newDrivers = drivers.appendDriver(Heade);
-
-function prependDriver(name) {
-  return newDrivers = drivers.unshift(name)
+function prependDriver(name)
+{
+  const newName = [...drivers];
+  newName.unshift(name);
+  return newName;
 }
-
-prependDriver(Beast);
-
+function removeLastDriver()
+{
+  const newName=[...drivers];
+   newName.pop();
+   return newName;
+}
+function removeFirstDriver()
+{
+  const newName=drivers.slice();
+  newName.shift();
+  return newName;
+}
 
 
 
